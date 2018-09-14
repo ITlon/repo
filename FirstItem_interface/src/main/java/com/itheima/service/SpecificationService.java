@@ -1,5 +1,7 @@
 package com.itheima.service;
 import java.util.List;
+import java.util.Map;
+
 import com.itheima.pojo.TbSpecification;
 
 import com.itheima.pojoGroup.Specification;
@@ -58,5 +60,8 @@ public interface SpecificationService {
 	 * @return
 	 */
 	public PageResult findPage(TbSpecification specification, int pageNum, int pageSize);
+
+
+	List<Map> selectSepcificationList();
 	
 }

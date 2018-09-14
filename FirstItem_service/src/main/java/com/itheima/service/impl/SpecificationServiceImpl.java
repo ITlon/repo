@@ -1,6 +1,7 @@
 package com.itheima.service.impl;
 
 import java.util.List;
+import java.util.Map;
 
 import com.itheima.mapper.TbSpecificationOptionMapper;
 import com.itheima.pojo.TbSpecificationOption;
@@ -141,6 +142,11 @@ public class SpecificationServiceImpl implements SpecificationService {
 
         Page<TbSpecification> page = (Page<TbSpecification>) specificationMapper.selectByExample(example);
         return new PageResult(page.getTotal(), page.getResult());
+    }
+
+    @Override
+    public List<Map> selectSepcificationList() {
+        return specificationMapper.selectSepcificationList();
     }
 
 }
