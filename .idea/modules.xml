@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" filepath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" filepath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" filepath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" filepath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_parent.iml" filepath="$PROJECT_DIR$/FirstItem_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" filepath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" filepath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" filepath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" />
+    </modules>
+  </component>
+</project>
