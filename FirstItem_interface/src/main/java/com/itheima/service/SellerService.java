@@ -1,8 +1,10 @@
 package com.itheima.service;
-import java.util.List;
-import com.itheima.pojo.TbSeller;
 
+import com.itheima.pojo.TbSeller;
 import entity.PageResult;
+
+import java.util.List;
+
 /**
  * 服务层接口
  * @author Administrator
@@ -57,5 +59,8 @@ public interface SellerService {
 	 * @return
 	 */
 	public PageResult findPage(TbSeller seller, int pageNum, int pageSize);
+
+
+	public void updateStatus(String sellerId, String status);
 	
 }
