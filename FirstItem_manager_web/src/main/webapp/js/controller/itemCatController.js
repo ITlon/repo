@@ -23,10 +23,11 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 	}
 	
 	//查询实体 
-	$scope.findOne=function(id){				
+	$scope.findOne=function(id){
 		itemCatService.findOne(id).success(
 			function(response){
-				$scope.entity= response;					
+				$scope.entity= response;
+
 			}
 		);				
 	}
@@ -37,6 +38,7 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		if($scope.entity.id!=null){//如果有ID
 			serviceObject=itemCatService.update( $scope.entity ); //修改  
 		}else{
+			$scope.entity.parentId=$scope.parentId;//插入父id
 			serviceObject=itemCatService.add( $scope.entity  );//增加 
 		}				
 		serviceObject.success(
@@ -76,5 +78,34 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 			}			
 		);
 	}
-    
+	$scope.parentId=0;
+    $scope.findByParentId=function (parentId) {
+    	$scope.parentId=parentId;//记录上级父id
+		itemCatService.findByParentId(parentId).success(
+			function (response) {
+				$scope.list= response;
+            }
+		)
+    }
+    $scope.grade=1;//当前级别
+    //设置级别
+    $scope.setGrade=function(value){
+        $scope.grade=value;
+    }
+
+    $scope.selectList=function (entity) {
+    	if($scope.grade==1){
+    		$scope.entity1=null;
+            $scope.entity2=null;
+		}
+
+		if($scope.grade==2){
+            $scope.entity1=entity;
+            $scope.entity2=null;
+		}
+		if($scope.grade==3){
+            $scope.entity2=entity;
+		}
+		$scope.findByParentId(entity.id);
+    }
 });	

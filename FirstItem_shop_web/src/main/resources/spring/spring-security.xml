@@ -25,7 +25,7 @@
 		<headers>
 			<frame-options policy="SAMEORIGIN"/>
 		</headers>
-		<logout/>
+		<logout invalidate-session="true" logout-url="/logout" logout-success-url="/shoplogin.html"/>
 	</http>
 
 	<!-- 认证管理器 -->

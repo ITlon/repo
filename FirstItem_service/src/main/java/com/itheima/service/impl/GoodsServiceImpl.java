@@ -1,5 +1,9 @@
 package com.itheima.service.impl;
 import java.util.List;
+
+import com.itheima.mapper.TbGoodsDescMapper;
+import com.itheima.pojo.TbGoodsDesc;
+import com.itheima.pojoGroup.Goods;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
@@ -22,7 +26,9 @@ public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
 	private TbGoodsMapper goodsMapper;
-	
+
+    @Autowired
+    private TbGoodsDescMapper goodsDescMapper;
 	/**
 	 * 查询全部
 	 */
@@ -45,9 +51,16 @@ public class GoodsServiceImpl implements GoodsService {
 	 * 增加
 	 */
 	@Override
-	public void add(TbGoods goods) {
-		goodsMapper.insert(goods);		
-	}
+	public void add(Goods goods) {
+		//设置商品状态为未审核
+		goods.getGoods().setAuditStatus("0");
+		//插入商品
+		goodsMapper.insert(goods.getGoods());
+		//将插入的商品id设置到商品扩展表
+		goods.getGoodsDesc().setGoodsId(goods.getGoods().getId());
+		//插入扩展表信息
+		goodsDescMapper.insert(goods.getGoodsDesc());
+    }
 
 	
 	/**
