@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller   ,goodsService){	
+app.controller('goodsController' ,function($scope,$controller,goodsService,itemCatService,$location){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -23,10 +23,23 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 	}
 	
 	//查询实体 
-	$scope.findOne=function(id){				
+	$scope.findOne=function(){
+		var id = $location.search()['id'];
 		goodsService.findOne(id).success(
 			function(response){
-				$scope.entity= response;					
+				$scope.entity= response;
+                //向富文本编辑器添加商品介绍
+                editor.html($scope.entity.goodsDesc.introduction);
+                //转换字符串图片为对象类型
+                $scope.entity.goodsDesc.itemImages = JSON.parse($scope.entity.goodsDesc.itemImages);
+                //转换扩展属性
+                $scope.entity.goodsDesc.customAttributeItems = JSON.parse($scope.entity.goodsDesc.customAttributeItems);
+                //规格选项
+                $scope.entity.goodsDesc.specificationItems = JSON.parse($scope.entity.goodsDesc.specificationItems);
+                //SKU 列表规格列转换
+                for (var i=0 ; i<$scope.entity.itemList.length;i++){
+                    $scope.entity.itemList[i].spec=JSON.parse( $scope.entity.itemList[i].spec);
+                }
 			}
 		);				
 	}
@@ -76,5 +89,32 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 			}			
 		);
 	}
-    
+    //定义审核状态集合
+    $scope.status = ['未审核', '已审核', '审核未通过', '关闭'];
+    //定义itemCatList集合
+    $scope.itemCatList = [];
+    $scope.findItemCatList = function () {
+        itemCatService.findAll().success(
+            function (response) {
+                //遍历结果集合
+                for (var i = 0; i < response.length; i++) {
+                    $scope.itemCatList[response[i].id] = response[i].name
+                }
+            }
+        );
+    };
+    $scope.updateStatus=function (status) {
+		goodsService.updateStatus($scope.selectIds,status).success(
+			function (response) {
+               if (response.success){
+               	//清空集合
+                 $scope.selectIds=[];
+                 //刷新页面
+                 $scope.reloadList();
+			   }else {
+               	alert(response.message);
+			   }
+            }
+		);
+    }
 });	

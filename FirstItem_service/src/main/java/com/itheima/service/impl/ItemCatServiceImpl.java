@@ -11,12 +11,14 @@ import com.itheima.pojo.TbItemCatExample.Criteria;
 import com.itheima.service.ItemCatService;
 
 import entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
  * @author Administrator
  *
  */
+@Transactional
 @Service
 public class ItemCatServiceImpl implements ItemCatService {
 

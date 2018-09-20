@@ -1,15 +1,16 @@
 package com.itheima.manager.controller;
-import java.util.List;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.itheima.pojo.TbGoods;
+import com.itheima.pojoGroup.Goods;
+import com.itheima.service.GoodsService;
+import entity.PageResult;
+import entity.Result;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.itheima.pojo.TbGoods;
-import com.itheima.service.GoodsService;
 
-import entity.PageResult;
-import entity.Result;
+import java.util.List;
 /**
  * controller
  * @author Administrator
@@ -47,7 +48,7 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public Result update(@RequestBody TbGoods goods){
+	public Result update(@RequestBody Goods goods){
 		try {
 			goodsService.update(goods);
 			return new Result(true, "修改成功");
@@ -63,7 +64,8 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/findOne")
-	public TbGoods findOne(Long id){
+	public Goods findOne(Long id){
+
 		return goodsService.findOne(id);		
 	}
 	
@@ -94,5 +96,17 @@ public class GoodsController {
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
 		return goodsService.findPage(goods, page, rows);		
 	}
-	
+
+	@RequestMapping("/updateStatus")
+	public Result updateStatus(Long[]ids,String status){
+
+		try {
+			goodsService.updateStatus(ids,status);
+			return  new Result(true,"修改成功");
+		} catch (Exception e) {
+			e.printStackTrace();
+			return  new Result(false,"修改失败");
+		}
+
+	}
 }

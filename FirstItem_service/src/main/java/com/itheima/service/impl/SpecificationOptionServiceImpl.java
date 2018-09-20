@@ -11,12 +11,14 @@ import com.itheima.pojo.TbSpecificationOptionExample.Criteria;
 import com.itheima.service.SpecificationOptionService;
 
 import entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
  * @author Administrator
  *
  */
+@Transactional
 @Service
 public class SpecificationOptionServiceImpl implements SpecificationOptionService {
 

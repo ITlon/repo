@@ -41,9 +41,8 @@ app.controller('baseController' ,function($scope){
 		}
 		return value;
     }
-	/*json取值两种方式  var  a = {"id":1,"手机":"联想"}
-	* 取id的key值方式 （1）a.id （2）a.['id']
-	* 上式中的key是个变量 所以无法通过第一种方式获取。只能用第2的一种。
-	* 即是说key等效于'具体属性'
+	/*json取值方式  var  a = {"id":1,"手机":"联想"}
+	* 取id的key值方式 （1）a.id （2）a['id'] （3）a[0][key]
+	* 上式中的key是个变量 .根据第3中方式取值。
     */
 });	

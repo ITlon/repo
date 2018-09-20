@@ -1,5 +1,7 @@
 package com.itheima.service;
 import java.util.List;
+import java.util.Map;
+
 import com.itheima.pojo.TbTypeTemplate;
 
 import entity.PageResult;
@@ -57,5 +59,7 @@ public interface TypeTemplateService {
 	 * @return
 	 */
 	public PageResult findPage(TbTypeTemplate typeTemplate, int pageNum, int pageSize);
-	
+
+
+	public List<Map> findSpecList(Long id);
 }

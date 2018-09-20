@@ -1,5 +1,6 @@
 package com.itheima.pojoGroup;
 
+import com.itheima.pojo.TbBrand;
 import com.itheima.pojo.TbGoods;
 import com.itheima.pojo.TbGoodsDesc;
 import com.itheima.pojo.TbItem;
