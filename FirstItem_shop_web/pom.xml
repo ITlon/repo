@@ -18,7 +18,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <dependencies>
-        <!--依赖项目-->
+        <!--模块依赖-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>FirstItem_pojo</artifactId>

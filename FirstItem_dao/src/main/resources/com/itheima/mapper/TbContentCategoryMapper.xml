@@ -67,7 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name, content_group, content_key, status
+    id, name
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.itheima.pojo.TbContentCategoryExample" >
     select

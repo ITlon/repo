@@ -2,29 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85b0b64-f9b9-491f-88a1-78fabf90b237" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstItem_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstItem_manager_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstItem_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstItem_service_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstItem_shop_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstItem_shop_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java" afterPath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/TypeTemplateService.java" afterPath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/TypeTemplateService.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods.html" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods.html" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/baseController.js" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/baseController.js" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/goodsController.js" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/goodsController.js" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/goodsService.js" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/goodsService.js" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojoGroup/Goods.java" afterPath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojoGroup/Goods.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/BrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsDescServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsDescServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemCatServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemCatServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SellerServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SellerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationOptionServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationOptionServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/TypeTemplateServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/TypeTemplateServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/GoodsController.java" afterPath="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/GoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods.html" afterPath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods.html" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods_edit.html" afterPath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods_edit.html" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/baseController.js" afterPath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/baseController.js" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/goodsController.js" afterPath="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/goodsController.js" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" afterPath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_common/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" afterPath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_dao/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_dao/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentMapper.xml" afterPath="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" afterPath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_interface/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_interface/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" afterPath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_manager_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/config/application.properties" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/config/application.properties" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/spring/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/content.html" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/content.html" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/index.html" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/index.html" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_parent.iml" afterPath="$PROJECT_DIR$/FirstItem_parent.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" afterPath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_pojo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbItem.java" afterPath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbItem.java" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" afterPath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_service/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/resources/log4j.properties" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" afterPath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_shop_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/FirstItem_interface/target/" />
     <ignored path="$PROJECT_DIR$/FirstItem_common/target/" />
@@ -34,6 +56,13 @@
     <ignored path="$PROJECT_DIR$/FirstItem_shop_web/target/" />
     <ignored path="$PROJECT_DIR$/FirstItem_manager_web/target/" />
     <ignored path="$PROJECT_DIR$/FirstItem_service/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_content_service/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_content_interface/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_protal_web/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_search_interface/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_search_service/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_search_web/target/" />
+    <ignored path="$PROJECT_DIR$/FirstItem_solr_util/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +83,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +100,11 @@
       <find>insert</find>
       <find>model=&quot;</find>
       <find>uploadServiceProvider</find>
+      <find>content</find>
+      <find>轮播</find>
+      <find>select</find>
+      <find>updat</find>
+      <find>注销</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,59 +118,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/com/itheima/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/SellerController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/seller_1.html" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/shoplogin.html" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/loginService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/loginService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/loginService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/loginController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/itemCatService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/itemCatController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/item_cat.html" />
-        <option value="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbGoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/FirstItem_common/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_content_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_content_service/src/main/java/com/itheima/content/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/FirstItem_content_interface/src/main/java/com/itheima/content/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/contentController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/service/contentService.js" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/contentController.js" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/content.html" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbContentMapper.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/resources/spring/spring.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-solr.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/searchService.java" />
         <option value="$PROJECT_DIR$/FirstItem_shop_web/pom.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/uploadService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/resources/spring/spring-security.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/itemCatController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/TypeTemplateService.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/typeTemplateService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/goodsService.js" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/resources/spring/applicationContext-tx.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsDescServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SellerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationOptionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/TypeTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods.html" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/goodsController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/TypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods.html" />
-        <option value="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojoGroup/Goods.java" />
-        <option value="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods_edit.html" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/goodsController.js" />
-        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/FirstItem_solr_util/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-solr.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_common/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_content_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_content_service/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_manager_web/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_service/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_solr_util/src/main/java/com/itheima/solrutil/SolrUtil.java" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/service/searchService.js" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/java/com/itheima/search/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/controller/searchController.js" />
       </list>
     </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="FirstItem_manager_web/invalid/JRebel" />
+      <facet id="FirstItem_service/invalid/JRebel" />
+    </ignored-facets>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -164,10 +205,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="835" />
-    <option name="y" value="6" />
-    <option name="width" value="1071" />
-    <option name="height" value="1016" />
+    <option name="x" value="988" />
+    <option name="y" value="4" />
+    <option name="width" value="880" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -369,6 +410,11 @@
             <id>XML</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>WebProperties</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -390,10 +436,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,60 +446,25 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -465,7 +472,7 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -474,7 +481,7 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -484,7 +491,48 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -492,16 +540,7 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -510,7 +549,7 @@
             <path>
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstItem_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_search_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -521,30 +560,37 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstItem_shop_web" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstItem_search_web" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.11921891" />
+    <property name="project.structure.side.proportion" value="0.2644188" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources\spring" />
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_shop_web\src\main\webapp\js\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.manager.controller" />
       <recent name="com.itheima.shop.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_manager_web\src\main\webapp\admin" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_manager_web\src\main\webapp\plugins" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_manager_web\src\main\webapp\js\plugins" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_shop_web\src\main\webapp\js\controller" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_shop_web\src\main\webapp\js\service" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\resources\spring" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\js" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\js\service" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\plugins" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,13 +605,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.manager-web">
+  <component name="RunManager" selected="Maven.shop-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="SolrUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.solrutil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.itheima.solrutil.SolrUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FirstItem_solr_util" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -600,6 +665,29 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="content-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_content_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration name="manager-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -643,6 +731,75 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_manager_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="protal-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_protal_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="search-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_search_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="search-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_search_web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -710,17 +867,27 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Maven.manager-service" />
       <item index="1" class="java.lang.String" itemvalue="Maven.manager-web" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.shop-web" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.protal-web" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.search-service" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.search-web" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.content-service" />
+      <item index="6" class="java.lang.String" itemvalue="Maven.shop-web" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SolrUtil" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.SolrUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\zhangsanfeng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -760,32 +927,52 @@
       <workItem from="1537429928729" duration="432000" />
       <workItem from="1537432766325" duration="1042000" />
       <workItem from="1537435052344" duration="1526000" />
-      <workItem from="1537444832840" duration="183000" />
+      <workItem from="1537444832840" duration="314000" />
+      <workItem from="1537489325024" duration="1128000" />
+      <workItem from="1537496945565" duration="1573000" />
+      <workItem from="1537498555999" duration="9633000" />
+      <workItem from="1537512973646" duration="371000" />
+      <workItem from="1537515861925" duration="5129000" />
+      <workItem from="1537575886212" duration="658000" />
+      <workItem from="1537588568603" duration="166000" />
+      <workItem from="1537588852642" duration="2776000" />
+      <workItem from="1537596862927" duration="620000" />
+      <workItem from="1537599851718" duration="599000" />
+      <workItem from="1537610338382" duration="6313000" />
+      <workItem from="1537616876910" duration="5954000" />
+      <workItem from="1537625550239" duration="1963000" />
+      <workItem from="1537627576259" duration="664000" />
+      <workItem from="1537628320709" duration="1192000" />
+      <workItem from="1537630323664" duration="695000" />
+      <workItem from="1537631068954" duration="1039000" />
+      <workItem from="1537659721134" duration="3881000" />
+      <workItem from="1537666504259" duration="12604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158334000" />
+    <option name="totallyTimeSpent" value="215423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24364896" sideWeight="0.50429183" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34757507" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39030024" sideWeight="0.19313304" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39030024" sideWeight="0.80686694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17435622" sideWeight="0.7630662" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20600858" sideWeight="0.2369338" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -802,8 +989,44 @@
       <window_info id="JRebel Setup Guide" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33833718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39030024" sideWeight="0.19313304" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.069392815" sideWeight="0.5021692" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Setup Guide" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39030024" sideWeight="0.80686694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3084764" sideWeight="0.7630662" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20600858" sideWeight="0.2369338" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -812,7 +1035,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -820,361 +1045,427 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ItemCatController.java">
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/TypeTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojoGroup/Specification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbGoodsDescExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbGoodsDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/TypeTemplateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/itemCatController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/uploadService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/type_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/specificationOptionController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/service/goodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/resources/spring/applicationContext-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationOptionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/TypeTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/seller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/itemCatService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/java/com/itheima/shop/controller/TypeTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/typeTemplateController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/typeTemplateController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/plugins/kindeditor/lang/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/plugins/kindeditor/lang/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/SpecificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="-1521">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/service/goodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsDescServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="91" column="71" lean-forward="true" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojoGroup/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="156" column="33" lean-forward="false" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/js/controller/goodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/src/main/webapp/admin/goods_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="82" column="53" lean-forward="true" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/goods_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="95" column="41" lean-forward="false" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        <state relative-caret-position="-1420">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/goodsController.js">
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsDescController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        <state relative-caret-position="-1396">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_common/src/main/java/util/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="281" column="56" lean-forward="false" selection-start-line="281" selection-start-column="56" selection-end-line="281" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="823" column="0" lean-forward="false" selection-start-line="823" selection-start-column="0" selection-end-line="823" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/SellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/contentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_content_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_content_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="204" lean-forward="false" selection-start-line="1" selection-start-column="204" selection-end-line="1" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/java/com/itheima/solrutil/SolrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="40" column="109" lean-forward="true" selection-start-line="40" selection-start-column="109" selection-end-line="40" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1536629043118" expanded="true" signature="5022:5124" ph="select from tb_item" />
+            <marker date="1536629043118" expanded="true" signature="5208:5264" ph="delete from tb_item... " />
+            <marker date="1536629043118" expanded="true" signature="5361:5380" ph="delete from tb_item... " />
+            <marker date="1536629043118" expanded="true" signature="5554:6584" ph="insert into tb_item... " />
+            <marker date="1536629043118" expanded="true" signature="10403:10431" ph="select count... tb_item" />
+            <marker date="1536629043118" expanded="true" signature="13329:14566" ph="update tb_item... " />
+            <marker date="1536629043118" expanded="true" signature="14771:16961" ph="update tb_item... " />
+            <marker date="1536629043118" expanded="true" signature="17054:18133" ph="update tb_item... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_dao/src/main/java/com/itheima/mapper/TbItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/service/searchService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2005">
+          <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <folding>
+            <marker date="1537676397490" expanded="true" signature="2650:2662" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/java/com/itheima/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/controller/searchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4872">
+          <caret line="356" column="80" lean-forward="false" selection-start-line="356" selection-start-column="80" selection-end-line="356" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1209,7 +1500,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JRebel</last-edited>
+          <last-edited>Invalid</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1236,7 +1527,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2644188" />
               </list>
             </option>
           </splitter-proportions>
@@ -1244,12 +1535,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FirstItem_shop_web</last-edited>
+          <last-edited>Spring|FirstItem_search_service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.2644188" />
               </list>
             </option>
           </splitter-proportions>
@@ -1261,7 +1551,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2644188" />
               </list>
             </option>
           </splitter-proportions>
