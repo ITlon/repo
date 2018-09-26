@@ -11,6 +11,7 @@ import com.itheima.pojo.TbItemCatExample.Criteria;
 import com.itheima.service.ItemCatService;
 
 import entity.PageResult;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -24,7 +25,8 @@ public class ItemCatServiceImpl implements ItemCatService {
 
 	@Autowired
 	private TbItemCatMapper itemCatMapper;
-	
+	@Autowired
+	private RedisTemplate redisTemplate;
 	/**
 	 * 查询全部
 	 */
@@ -104,6 +106,13 @@ public class ItemCatServiceImpl implements ItemCatService {
 		TbItemCatExample example1=new TbItemCatExample();
 		Criteria criteria1 = example1.createCriteria();
 		criteria1.andParentIdEqualTo(parentId);
+		//查询所有
+		List<TbItemCat> itemCatList = findAll();
+		for (TbItemCat itemCat : itemCatList) {
+			//存入缓存
+			redisTemplate.boundHashOps("itemCat").put(itemCat.getName(),itemCat.getTypeId());
+		}
+
 		return itemCatMapper.selectByExample(example1);
 	}
 
