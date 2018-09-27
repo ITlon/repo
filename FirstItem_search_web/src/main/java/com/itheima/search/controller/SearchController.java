@@ -24,4 +24,5 @@ public class SearchController {
 
         return  searchService.search(searchMap);
     }
+
 }

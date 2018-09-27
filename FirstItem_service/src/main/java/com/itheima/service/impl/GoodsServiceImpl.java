@@ -13,17 +13,14 @@ import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 服务实现层
  *
  * @author Administrator
  */
- 
+@Transactional
 @Service
 public class GoodsServiceImpl implements GoodsService {
 
@@ -224,6 +221,13 @@ public class GoodsServiceImpl implements GoodsService {
             //重新更新到数据库
             goodsMapper.updateByPrimaryKey(goods);
         }
+    }
+    @Override
+    public List<TbItem> findItemListByGoodsId(Long[]goodsIds,String status){
+        TbItemExample example = new TbItemExample();
+        example.createCriteria().andStatusEqualTo(status);
+        example.createCriteria().andGoodsIdIn(Arrays.asList(goodsIds));
+        return itemMapper.selectByExample(example);
     }
 
 }

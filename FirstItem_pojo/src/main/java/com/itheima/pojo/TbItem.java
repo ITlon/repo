@@ -7,8 +7,8 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.Map;
-
-public class TbItem implements Serializable{
+@SuppressWarnings("all")
+public class TbItem implements Serializable {
     private Long id;
     @Field("item_title")
     private String title;
@@ -31,6 +31,7 @@ public class TbItem implements Serializable{
 
     private Date createTime;
 
+    @Field("item_updatetime")
     private Date updateTime;
 
     private String itemSn;
@@ -57,13 +58,13 @@ public class TbItem implements Serializable{
 
     @Dynamic
     @Field("item_spec_*")
-    private Map<String,String> specMap;
+    private Map<String, String> specMap;
 
-    public Map<String,String> getSpecMap() {
+    public Map<String, String> getSpecMap() {
         return specMap;
     }
 
-    public void setSpecMap(Map<String,String> specMap) {
+    public void setSpecMap(Map<String, String> specMap) {
         this.specMap = specMap;
     }
 

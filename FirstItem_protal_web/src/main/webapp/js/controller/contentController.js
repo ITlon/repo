@@ -9,5 +9,14 @@ app.controller('contentController',function($scope,contentService){
 			}
 		);		
 	}
+
+	$scope.search=function () {
+		location.href="http://localhost:8091/search.html#?keywords="+$scope.keywords;
+    }
+
+
+
+
+
 	
 });

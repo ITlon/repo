@@ -2,6 +2,7 @@ package com.itheima.service;
 import java.util.List;
 import com.itheima.pojo.TbGoods;
 
+import com.itheima.pojo.TbItem;
 import com.itheima.pojoGroup.Goods;
 import entity.PageResult;
 /**
@@ -66,5 +67,5 @@ public interface GoodsService {
 	 */
 	public void updateStatus(Long[] ids,String status);
 
-
+	public List<TbItem> findItemListByGoodsId(Long[]goodsIds, String status);
 }

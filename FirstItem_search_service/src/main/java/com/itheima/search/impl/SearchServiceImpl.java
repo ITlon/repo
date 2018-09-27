@@ -30,9 +30,11 @@ public class SearchServiceImpl implements SearchService {
 
     @Override
     public Map search(Map searchMap) {
-        //关键字空格处理
-        String keywords = (String) searchMap.get("keywords");
-        searchMap.put("keywords",keywords.replace(" ",""));
+        if (!"".equals(searchMap.get("keywords"))||searchMap.get("keywords")!=null){
+            //关键字空格处理
+            String keywords = (String) searchMap.get("keywords");
+            searchMap.put("keywords",keywords.replace(" ",""));
+        }
         Map map = new HashMap();
         //查询高亮列表
         map.putAll(searchHighLight(searchMap));
@@ -50,6 +52,21 @@ public class SearchServiceImpl implements SearchService {
             }
         }
         return map;
+    }
+    //更新到索引库
+    @Override
+    public void importList(List list) {
+        solrTemplate.saveBeans(list);
+        solrTemplate.commit();
+    }
+    //删除被删除的的商品的索引
+    @Override
+    public void deleteByGoodsIds(List goodsIdList) {
+        Query query = new SimpleQuery();
+        Criteria criteria = new Criteria("item_goodsid").in(goodsIdList);
+        query.addCriteria(criteria);
+        solrTemplate.delete(query);
+        solrTemplate.commit();
     }
 
     //高亮查询
