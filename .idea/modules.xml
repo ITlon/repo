@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/FirstItem_parent.iml" filepath="$PROJECT_DIR$/FirstItem_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" filepath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" filepath="$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" filepath="$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" filepath="$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" filepath="$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" filepath="$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" />

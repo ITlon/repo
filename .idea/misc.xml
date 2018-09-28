@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_protal_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_service" />
@@ -14,11 +15,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">

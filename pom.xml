@@ -8,18 +8,18 @@
     <modules>
         <module>FirstItem_pojo</module>
         <module>FirstItem_common</module>
+        <module>FirstItem_solr_util</module>
         <module>FirstItem_dao</module>
+        <module>FirstItem_interface</module>
         <module>FirstItem_service</module>
         <module>FirstItem_manager_web</module>
         <module>FirstItem_shop_web</module>
-        <module>FirstItem_interface</module>
         <module>FirstItem_content_service</module>
         <module>FirstItem_content_interface</module>
-        <module>FirstItem_protal_web</module>
         <module>FirstItem_search_interface</module>
         <module>FirstItem_search_service</module>
         <module>FirstItem_search_web</module>
-        <module>FirstItem_solr_util</module>
+        <module>FirstItem_protal_web</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>
@@ -87,7 +87,7 @@
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
             </dependency>
-            <!-- dubbo相关 -->
+            <!--dubbo相关 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>

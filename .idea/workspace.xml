@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a85b0b64-f9b9-491f-88a1-78fabf90b237" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstItem_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstItem_manager_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstItem_solr_util_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstItem_solr_util_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java" afterPath="$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" afterPath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_content_interface/FirstItem_content_interface.iml" afterPath="$PROJECT_DIR$/FirstItem_content_interface/FirstItem_content_interface.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_content_service/FirstItem_content_service.iml" afterPath="$PROJECT_DIR$/FirstItem_content_service/FirstItem_content_service.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" afterPath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" afterPath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" />
       <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" afterPath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_manager_web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" afterPath="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbItem.java" afterPath="$PROJECT_DIR$/FirstItem_pojo/src/main/java/com/itheima/pojo/TbItem.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/index.html" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/controller/contentController.js" afterPath="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/controller/contentController.js" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/SearchService.java" afterPath="$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/SearchService.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_search_web/src/main/java/com/itheima/search/controller/SearchController.java" afterPath="$PROJECT_DIR$/FirstItem_search_web/src/main/java/com/itheima/search/controller/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/controller/searchController.js" afterPath="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/controller/searchController.js" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_parent.iml" afterPath="$PROJECT_DIR$/FirstItem_parent.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" afterPath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" afterPath="$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" afterPath="$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" afterPath="$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" afterPath="$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_search_web/pom.xml" afterPath="$PROJECT_DIR$/FirstItem_search_web/pom.xml" />
       <change beforePath="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html" afterPath="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html" />
-      <change beforePath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/GoodsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" afterPath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" afterPath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" />
+      <change beforePath="$PROJECT_DIR$/FirstItem_solr_util/FirstItem_solr_util.iml" afterPath="$PROJECT_DIR$/FirstItem_solr_util/FirstItem_solr_util.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/FirstItem_interface/target/" />
     <ignored path="$PROJECT_DIR$/FirstItem_common/target/" />
@@ -56,7 +68,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/contentController.java" />
-        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/service/contentService.js" />
         <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/js/controller/contentController.js" />
         <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/content.html" />
         <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentCategoryController.java" />
@@ -106,15 +116,11 @@
         <option value="$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-solr.xml" />
         <option value="$PROJECT_DIR$/FirstItem_search_interface/src/main/java/com/itheima/search/service/searchService.java" />
         <option value="$PROJECT_DIR$/FirstItem_shop_web/pom.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/resources/config/application.properties" />
         <option value="$PROJECT_DIR$/FirstItem_solr_util/pom.xml" />
         <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-solr.xml" />
         <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_search_web/pom.xml" />
-        <option value="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" />
         <option value="$PROJECT_DIR$/FirstItem_content_interface/pom.xml" />
         <option value="$PROJECT_DIR$/FirstItem_dao/pom.xml" />
         <option value="$PROJECT_DIR$/FirstItem_interface/pom.xml" />
@@ -145,6 +151,12 @@
         <option value="$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/controller/searchController.js" />
         <option value="$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/FirstItem_search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_protal_web/pom.xml" />
       </list>
     </option>
   </component>
@@ -175,13 +187,20 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FirstItem_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="946" />
+    <option name="x" value="781" />
+    <option name="y" value="60" />
     <option name="width" value="958" />
     <option name="height" value="1038" />
   </component>
@@ -418,41 +437,84 @@
               <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstItem_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstItem_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstItem_protal_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstItem_search_web" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/WEB-INF/web.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11921891" />
-    <property name="project.structure.side.proportion" value="0.2644188" />
+    <property name="project.structure.side.proportion" value="0.58792186" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources\spring" />
-      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_shop_web\src\main\webapp\js\service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itheima.manager.controller" />
-      <recent name="com.itheima.shop.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_common\src\main\resources" />
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\resources\spring" />
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\js" />
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\js\service" />
       <recent name="D:\Ideawork\FirstItem_parent\FirstItem_search_web\src\main\webapp\plugins" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.manager.controller" />
+      <recent name="com.itheima.shop.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_content_service\src\main\resources\spring" />
+      <recent name="D:\Ideawork\FirstItem_parent\FirstItem_shop_web\src\main\webapp\js\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +529,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.search-web">
+  <component name="RunManager" selected="Maven.search-service">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -597,29 +659,6 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="protal-web" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/FirstItem_protal_web" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
     <configuration name="search-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -729,15 +768,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="8">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.manager-service" />
       <item index="1" class="java.lang.String" itemvalue="Maven.manager-web" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.protal-web" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.search-service" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.search-web" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.content-service" />
-      <item index="6" class="java.lang.String" itemvalue="Maven.shop-web" />
-      <item index="7" class="java.lang.String" itemvalue="Application.SolrUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.search-service" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.search-web" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.content-service" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.shop-web" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SolrUtil" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -814,11 +852,13 @@
       <workItem from="1537917471818" duration="22166000" />
       <workItem from="1537954973058" duration="13086000" />
       <workItem from="1538009462395" duration="1159000" />
+      <workItem from="1538112032139" duration="5195000" />
+      <workItem from="1538119903605" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269117000" />
+    <option name="totallyTimeSpent" value="275107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -830,16 +870,16 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15919812" sideWeight="0.19313304" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15879828" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2054721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21016166" sideWeight="0.80686694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2551963" sideWeight="0.80686694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551503" sideWeight="0.7630662" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23283261" sideWeight="0.7630662" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20600858" sideWeight="0.2369338" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -858,42 +898,6 @@
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15919812" sideWeight="0.19313304" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.069392815" sideWeight="0.5021692" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15879828" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Setup Guide" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290993" sideWeight="0.80686694" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2247854" sideWeight="0.7630662" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20600858" sideWeight="0.2369338" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -938,168 +942,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/contentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_content_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/java/com/itheima/solrutil/SolrUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="40" column="109" lean-forward="true" selection-start-line="40" selection-start-column="109" selection-end-line="40" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_dao/src/main/resources/com/itheima/mapper/TbItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_dao/src/main/java/com/itheima/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/js/service/searchService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_common/src/main/resources/properties/redis-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_common/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_content_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1198">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/java/com/itheima/manager/controller/ContentCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-602">
@@ -1107,13 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/service/contentService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/service/contentService.js" />
     <entry file="file://$PROJECT_DIR$/FirstItem_content_service/src/main/java/com/itheima/content/impl/ContentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3216">
@@ -1133,14 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3412">
           <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,28 +1009,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="74" column="91" lean-forward="false" selection-start-line="74" selection-start-column="83" selection-end-line="74" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1867">
-          <caret line="0" column="204" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="204" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/controller/contentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/js/controller/contentController.js" />
     <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/java/com/itheima/service/impl/BrandServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1231,13 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstItem_interface/src/main/java/com/itheima/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -1249,13 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="224" column="13" lean-forward="true" selection-start-line="224" selection-start-column="13" selection-end-line="224" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1288,10 +1082,280 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/java/com/itheima/search/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_content_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/resources/spring/applicationContext-tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_common/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/resources/spring/springmvc.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.itheima:FirstItem_parent:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.itheima:FirstItem_parent:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.itheima:FirstItem_parent:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="18.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.itheima:FirstItem_protal_web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.itheima:FirstItem_protal_web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.itheima:FirstItem_protal_web:1.0-SNAPSHOT</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.springframework:spring-tx:jar:4.1.9.RELEASE</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.springframework.data:spring-data-commons:jar:1.11.5.RELEASE</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.springframework.data:spring-data-commons:jar:1.11.5.RELEASE/org.springframework:spring-core:jar:4.1.9.RELEASE</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.springframework.data:spring-data-commons:jar:1.11.5.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.commons:commons-lang3:jar:3.1</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.4</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.httpcomponents:httpmime:jar:4.2.2</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.httpcomponents:httpclient-cache:jar:4.2.2</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.solr:solr-solrj:jar:4.10.3</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.solr:solr-solrj:jar:4.10.3/org.codehaus.woodstox:wstx-asl:jar:3.2.7</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.apache.solr:solr-solrj:jar:4.10.3/org.noggit:noggit:jar:0.5</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7/com.fasterxml.jackson.core:jackson-core:jar:2.6.7</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="" y="">com.itheima:FirstItem_content_interface:jar:1.0-SNAPSHOT/com.itheima:FirstItem_pojo:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-solr:jar:1.5.5.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.8.4</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="" y="">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="" y="">com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14</node>
+            <node x="" y="">junit:junit:jar:4.9</node>
+            <node x="" y="">junit:junit:jar:4.9/org.hamcrest:hamcrest-core:jar:1.1</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.28</node>
+            <node x="" y="">javassist:javassist:jar:3.11.0.GA</node>
+            <node x="" y="">commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0079039519759883" x="905.0" y="379.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/java/com/itheima/content/controller/contentController.java" />
+    <entry file="file://D:/develop/apache-maven-3.5.4/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_content_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_solr_util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_shop_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="101" column="12" lean-forward="false" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_protal_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstItem_search_web/src/main/webapp/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="337" column="18" lean-forward="false" selection-start-line="337" selection-start-column="18" selection-end-line="337" selection-end-column="18" />
+        <state relative-caret-position="130">
+          <caret line="316" column="40" lean-forward="true" selection-start-line="316" selection-start-column="40" selection-end-line="316" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstItem_search_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1317,7 +1381,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5119787" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1326,11 +1390,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Invalid</last-edited>
+          <last-edited>Web (FirstItem_shop_web)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.58792186" />
               </list>
             </option>
           </splitter-proportions>
@@ -1341,7 +1405,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5119787" />
               </list>
             </option>
           </splitter-proportions>
@@ -1353,7 +1417,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2644188" />
+                <option value="0.5119787" />
               </list>
             </option>
           </splitter-proportions>
@@ -1361,11 +1425,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|FirstItem_search_service</last-edited>
+          <last-edited>Web|FirstItem_protal_web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2644188" />
+                <option value="0.3549246" />
               </list>
             </option>
           </splitter-proportions>
@@ -1373,11 +1437,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.springframework:spring-messaging:4.2.4.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2644188" />
+                <option value="0.58792186" />
               </list>
             </option>
           </splitter-proportions>
