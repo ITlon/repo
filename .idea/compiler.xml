@@ -12,6 +12,9 @@
         <module name="FirstItem_dao" />
         <module name="FirstItem_interface" />
         <module name="FirstItem_manager_web" />
+        <module name="FirstItem_page_interface" />
+        <module name="FirstItem_page_service" />
+        <module name="FirstItem_page_web" />
         <module name="FirstItem_pojo" />
         <module name="FirstItem_protal_web" />
         <module name="FirstItem_search_interface" />
@@ -29,6 +32,9 @@
       <module name="FirstItem_dao" target="1.7" />
       <module name="FirstItem_interface" target="1.7" />
       <module name="FirstItem_manager_web" target="1.7" />
+      <module name="FirstItem_page_interface" target="1.7" />
+      <module name="FirstItem_page_service" target="1.7" />
+      <module name="FirstItem_page_web" target="1.7" />
       <module name="FirstItem_parent" target="1.7" />
       <module name="FirstItem_pojo" target="1.7" />
       <module name="FirstItem_protal_web" target="1.7" />

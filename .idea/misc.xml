@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_page_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_protal_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_web" />
@@ -14,6 +16,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstItem_page_service/pom.xml" />
       </list>
     </option>
   </component>

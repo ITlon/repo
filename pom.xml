@@ -20,6 +20,9 @@
         <module>FirstItem_search_service</module>
         <module>FirstItem_search_web</module>
         <module>FirstItem_protal_web</module>
+        <module>FirstItem_page_interface</module>
+        <module>FirstItem_page_web</module>
+        <module>FirstItem_page_service</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

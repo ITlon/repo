@@ -1,6 +1,7 @@
 package com.itheima.manager.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.itheima.page.service.ItemPageService;
 import com.itheima.pojo.TbGoods;
 import com.itheima.pojo.TbItem;
 import com.itheima.pojoGroup.Goods;
@@ -29,7 +30,8 @@ public class GoodsController {
     private GoodsService goodsService;
     @Reference
     private SearchService searchService;
-
+    @Reference
+    private ItemPageService itemPageService;
     /**
      * 返回全部列表
      *
@@ -117,18 +119,25 @@ public class GoodsController {
         try {
             goodsService.updateStatus(ids, status);
             if (status.equals("1")) {
+
                 List<TbItem> itemList = goodsService.findItemListByGoodsId(ids, status);
+
                 if (itemList.size() > 0) {
                     searchService.importList(itemList);
                 } else {
                     System.out.println("没有明细数据");
                 }
+                for (Long id : ids) {
+                    itemPageService.genItemHtml(id);
+                }
             }
             return new Result(true, "修改成功");
+
         } catch (Exception e) {
             e.printStackTrace();
             return new Result(false, "修改失败");
         }
     }
+
 
 }
