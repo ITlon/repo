@@ -1,6 +1,5 @@
 package com.itheima.page.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.itheima.mapper.TbGoodsDescMapper;
 import com.itheima.mapper.TbGoodsMapper;
 import com.itheima.mapper.TbItemCatMapper;
@@ -14,10 +13,11 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfig;
 
+import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
@@ -61,28 +61,29 @@ public class ItemPageServiceImpl implements ItemPageService {
             criteria.andStatusEqualTo("1");
             example.setOrderByClause("is_default desc");
             List<TbItem> itemList = itemMapper.selectByExample(example);
-            if(itemList.size()>0){
-                map.put("itemList",itemList);
-            }
-            if (itemCat1!=null){
-                map.put("itemCat1",itemCat1);
-            }
-             if (itemCat2!=null){
-                 map.put("itemCat2",itemCat2);
-             }
-            if (itemCat3!=null){
-                map.put("itemCat3",itemCat3);
-            }
-            if (goods!=null){
-                map.put("goods",goods);
-            }
-            if (goodsDesc!=null){
-                map.put("goodsDesc",goodsDesc);
-            }
+            map.put("itemList", itemList);
+            map.put("itemCat1", itemCat1);
+            map.put("itemCat2", itemCat2);
+            map.put("itemCat3", itemCat3);
+            map.put("goods", goods);
+            map.put("goodsDesc", goodsDesc);
             //获取输出流生成文件
-            Writer writer = new FileWriter(pagedir+goodsId+".html");
-            template.process(map,writer);
+            Writer writer = new FileWriter(pagedir + goodsId + ".html");
+            template.process(map, writer);
             writer.close();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public boolean deleteItemHtml(Long[] goodsIds) {
+        try {
+            for (Long goodsId : goodsIds) {
+                new File(pagedir + goodsId + ".html").delete();
+            }
             return true;
         } catch (Exception e) {
             e.printStackTrace();
