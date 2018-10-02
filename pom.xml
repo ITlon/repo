@@ -23,6 +23,9 @@
         <module>FirstItem_page_interface</module>
         <module>FirstItem_page_web</module>
         <module>FirstItem_page_service</module>
+        <module>FirstItem_user_interface</module>
+        <module>FirstItem_user_service</module>
+        <module>FirstItem_user_web</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

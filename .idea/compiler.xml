@@ -23,6 +23,9 @@
         <module name="FirstItem_service" />
         <module name="FirstItem_shop_web" />
         <module name="FirstItem_solr_util" />
+        <module name="FirstItem_user_interface" />
+        <module name="FirstItem_user_service" />
+        <module name="FirstItem_user_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +47,9 @@
       <module name="FirstItem_service" target="1.7" />
       <module name="FirstItem_shop_web" target="1.7" />
       <module name="FirstItem_solr_util" target="1.7" />
+      <module name="FirstItem_user_interface" target="1.7" />
+      <module name="FirstItem_user_service" target="1.7" />
+      <module name="FirstItem_user_web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
