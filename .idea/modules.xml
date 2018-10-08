@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_cart_interface/FirstItem_cart_interface.iml" filepath="$PROJECT_DIR$/FirstItem_cart_interface/FirstItem_cart_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_cart_service/FirstItem_cart_service.iml" filepath="$PROJECT_DIR$/FirstItem_cart_service/FirstItem_cart_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_cart_web/FirstItem_cart_web.iml" filepath="$PROJECT_DIR$/FirstItem_cart_web/FirstItem_cart_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" filepath="$PROJECT_DIR$/FirstItem_common/FirstItem_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_content_interface/FirstItem_content_interface.iml" filepath="$PROJECT_DIR$/FirstItem_content_interface/FirstItem_content_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_content_service/FirstItem_content_service.iml" filepath="$PROJECT_DIR$/FirstItem_content_service/FirstItem_content_service.iml" />

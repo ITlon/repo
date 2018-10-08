@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FirstItem_cart_interface" />
+        <module name="FirstItem_cart_service" />
+        <module name="FirstItem_cart_web" />
         <module name="FirstItem_common" />
         <module name="FirstItem_content_interface" />
         <module name="FirstItem_content_service" />
@@ -29,6 +32,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FirstItem_cart_interface" target="1.7" />
+      <module name="FirstItem_cart_service" target="1.7" />
+      <module name="FirstItem_cart_web" target="1.7" />
       <module name="FirstItem_common" target="1.7" />
       <module name="FirstItem_content_interface" target="1.7" />
       <module name="FirstItem_content_service" target="1.7" />

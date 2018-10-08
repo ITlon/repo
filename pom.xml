@@ -26,6 +26,9 @@
         <module>FirstItem_user_interface</module>
         <module>FirstItem_user_service</module>
         <module>FirstItem_user_web</module>
+        <module>FirstItem_cart_interface</module>
+        <module>FirstItem_cart_service</module>
+        <module>FirstItem_cart_web</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

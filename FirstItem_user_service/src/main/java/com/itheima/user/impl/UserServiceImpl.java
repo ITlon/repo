@@ -166,6 +166,7 @@ public class UserServiceImpl implements UserService {
     private String template_code;
     @Value("${sign_name}")
     private String sign_name;
+
     @Override
     public void createSmsCode(final String phone) {
         //生成6位的随机数字
@@ -182,7 +183,7 @@ public class UserServiceImpl implements UserService {
                 mapMessage.setString("template_code", template_code);//模板编号
                 mapMessage.setString("sign_name", sign_name);//签名
                 Map m=new HashMap<>();
-                m.put("number", code);
+                m.put("code", code);
                 mapMessage.setString("param", JSON.toJSONString(m));//参数
                 return mapMessage;
             }
@@ -192,7 +193,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean checkCode(String phone, String code) {
        String smsCode = (String) redisTemplate.boundHashOps("smsCode").get(phone);
-       if (smsCode==null){
+       if (smsCode==null||smsCode==""){
            return false;
        }
         if (!smsCode.equals(code)){
@@ -200,6 +201,4 @@ public class UserServiceImpl implements UserService {
         }
         return true;
     }
-
-
 }
