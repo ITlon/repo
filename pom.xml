@@ -274,13 +274,9 @@
                 <version>1.4.01</version>
             </dependency>
         </dependencies>
-
     </dependencyManagement>
 
-
-
     <build>
-
         <plugins>
             <!-- java编译插件 -->
             <plugin>
@@ -293,9 +289,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-
         </plugins>
-
     </build>
 
 </project>
