@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" filepath="$PROJECT_DIR$/FirstItem_dao/FirstItem_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" filepath="$PROJECT_DIR$/FirstItem_interface/FirstItem_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" filepath="$PROJECT_DIR$/FirstItem_manager_web/FirstItem_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_order_interface/FirstItem_order_interface.iml" filepath="$PROJECT_DIR$/FirstItem_order_interface/FirstItem_order_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_order_service/FirstItem_order_service.iml" filepath="$PROJECT_DIR$/FirstItem_order_service/FirstItem_order_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_page_interface/FirstItem_page_interface.iml" filepath="$PROJECT_DIR$/FirstItem_page_interface/FirstItem_page_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_page_service/FirstItem_page_service.iml" filepath="$PROJECT_DIR$/FirstItem_page_service/FirstItem_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_page_web/FirstItem_page_web.iml" filepath="$PROJECT_DIR$/FirstItem_page_web/FirstItem_page_web.iml" />

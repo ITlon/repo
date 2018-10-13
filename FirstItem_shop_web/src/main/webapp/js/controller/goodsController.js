@@ -223,6 +223,8 @@ app.controller('goodsController', function ($scope, $controller, $location, good
         for (var m = 0; m < list.length; m++) {
             var oldRow = list[m];
             for (var n = 0; n < columnValues.length; n++) {
+                //stringify从对象中解析成json字符串
+                //parse 将字符串解析成json对象
                 var newRow = JSON.parse(JSON.stringify(oldRow));//深克隆
                 //往新列表中的键spec对应的值中添加（键columnName,其对应的值为columnValues[n]）
                 newRow.spec[columnName] = columnValues[n];
