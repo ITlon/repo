@@ -31,6 +31,11 @@
         <module>FirstItem_cart_web</module>
         <module>FirstItem_order_interface</module>
         <module>FirstItem_order_service</module>
+        <module>FirstItem_pay_interface</module>
+        <module>FirstItem_pay_service</module>
+        <module>FirstItem_seckill_interface</module>
+        <module>FirstItem_seckill_service</module>
+        <module>FirstItem_seckill_web</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

@@ -5,11 +5,13 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.itheima.mapper.TbOrderItemMapper;
 import com.itheima.mapper.TbOrderMapper;
+import com.itheima.mapper.TbPayLogMapper;
 import com.itheima.order.service.OrderService;
 import com.itheima.pojo.TbOrder;
 import com.itheima.pojo.TbOrderExample;
 import com.itheima.pojo.TbOrderExample.Criteria;
 import com.itheima.pojo.TbOrderItem;
+import com.itheima.pojo.TbPayLog;
 import com.itheima.pojoGroup.Cart;
 import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +20,7 @@ import org.springframework.transaction.annotation.Transactional;
 import util.IdWorker;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -41,7 +44,8 @@ public class OrderServiceImpl implements OrderService {
 
 	@Autowired
 	private TbOrderItemMapper orderItemMapper;
-	
+	@Autowired
+	private TbPayLogMapper payLogMapper;
 	/**
 	 * 查询全部
 	 */
@@ -69,6 +73,8 @@ public class OrderServiceImpl implements OrderService {
 		//1.从redis中提取购物车列表
 		List<Cart> cartList = (List<Cart>) redisTemplate.boundHashOps("cartList").get(order.getUserId());
 		//2.循环购物车列表添加订单
+		double total_money=0;
+		List orderIdList= new ArrayList();
 		for (Cart cart : cartList) {
 			//生成唯一id
 			long orderId = idWorker.nextId();
@@ -84,19 +90,39 @@ public class OrderServiceImpl implements OrderService {
 			tbOrder.setReceiver(order.getReceiver());//收货人
 			tbOrder.setReceiverMobile(order.getReceiverMobile());//电话
 			List<TbOrderItem> orderItemList = cart.getOrderItemList();
-			double totalMoney=0;
+			double money=0;
 			for (TbOrderItem orderItem : orderItemList) {
 				orderItem.setId(idWorker.nextId());
 				orderItem.setOrderId(orderId); //订单id
 				orderItem.setSellerId(cart.getSellerId());//商家id
-				totalMoney+=orderItem.getTotalFee().doubleValue();
+				money+=orderItem.getTotalFee().doubleValue();//每个购物车的金额
 				orderItemMapper.insert(orderItem);
 			}
-            tbOrder.setPayment(new BigDecimal(totalMoney));
+            tbOrder.setPayment(new BigDecimal(money));
 			orderMapper.insert(tbOrder);
+			total_money+=money;//总金额
+			orderIdList.add(orderId);
+		}
+		//微信支付方式->生成订单日志
+		if (order.getPaymentType().equals("1")){
+			TbPayLog payLog = new TbPayLog();
+			payLog.setCreateTime(new Date());//生成日志的时间
+			//所有订单的订单号
+			payLog.setOrderList(orderIdList.toString().replace("[","").
+					replace("]","").replace(" ",""));
+			payLog.setTotalFee((long)(total_money*100));//总金额
+			payLog.setUserId(order.getUserId());//当前用户
+			payLog.setTradeState("0");//支付状态 未支付
+			payLog.setPayType("1");//支付类型 微信
+			payLog.setOutTradeNo(idWorker.nextId()+"");//支付订单号
+			//插入数据库
+			payLogMapper.insert(payLog);
+			//根据用户名存入redis
+			redisTemplate.boundHashOps("payLog").put(order.getUserId(),payLog);
 		}
 
 		//3.清空redis中的购物车
+
 		redisTemplate.boundHashOps("cartList").delete(order.getUserId());
 	}
 
@@ -192,5 +218,31 @@ public class OrderServiceImpl implements OrderService {
 		Page<TbOrder> page= (Page<TbOrder>)orderMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Override
+	public void updateOrderStatus(String out_trade_no, String transaction_id) {
+		//修改日志状态
+		TbPayLog payLog = payLogMapper.selectByPrimaryKey(out_trade_no);
+		payLog.setTradeState("1");//支付状态 已支付
+		payLog.setTransactionId(transaction_id);//微信交易流水号
+		payLog.setPayTime(new Date());//交易完成时间
+		payLogMapper.updateByPrimaryKey(payLog);
+		//更新订单状态
+		String orderIds = payLog.getOrderList();
+		String[] orderIdList = orderIds.split(",");
+		for (String orderId : orderIdList) {
+			TbOrder order = orderMapper.selectByPrimaryKey(Long.valueOf(orderId));
+			if (order!=null){
+				order.setStatus("2");
+				orderMapper.updateByPrimaryKey(order);
+			}
+		}
+		//删除redis中的订单日志记录
+		redisTemplate.boundHashOps("payLog").delete(payLog.getUserId());
+	}
+	@Override
+	public TbPayLog searchPayLogFromRedis(String userId) {
+		return (TbPayLog) redisTemplate.boundHashOps("payLog").get(userId);
+	}
+
 }

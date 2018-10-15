@@ -17,11 +17,16 @@
       <module fileurl="file://$PROJECT_DIR$/FirstItem_page_service/FirstItem_page_service.iml" filepath="$PROJECT_DIR$/FirstItem_page_service/FirstItem_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_page_web/FirstItem_page_web.iml" filepath="$PROJECT_DIR$/FirstItem_page_web/FirstItem_page_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_parent.iml" filepath="$PROJECT_DIR$/FirstItem_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_pay_interface/FirstItem_pay_interface.iml" filepath="$PROJECT_DIR$/FirstItem_pay_interface/FirstItem_pay_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_pay_service/FirstItem_pay_service.iml" filepath="$PROJECT_DIR$/FirstItem_pay_service/FirstItem_pay_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" filepath="$PROJECT_DIR$/FirstItem_pojo/FirstItem_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" filepath="$PROJECT_DIR$/FirstItem_protal_web/FirstItem_protal_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" filepath="$PROJECT_DIR$/FirstItem_search_interface/FirstItem_search_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" filepath="$PROJECT_DIR$/FirstItem_search_service/FirstItem_search_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" filepath="$PROJECT_DIR$/FirstItem_search_web/FirstItem_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_seckill_interface/FirstItem_seckill_interface.iml" filepath="$PROJECT_DIR$/FirstItem_seckill_interface/FirstItem_seckill_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_seckill_service/FirstItem_seckill_service.iml" filepath="$PROJECT_DIR$/FirstItem_seckill_service/FirstItem_seckill_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstItem_seckill_web/FirstItem_seckill_web.iml" filepath="$PROJECT_DIR$/FirstItem_seckill_web/FirstItem_seckill_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" filepath="$PROJECT_DIR$/FirstItem_service/FirstItem_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" filepath="$PROJECT_DIR$/FirstItem_shop_web/FirstItem_shop_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstItem_solr_util/FirstItem_solr_util.iml" filepath="$PROJECT_DIR$/FirstItem_solr_util/FirstItem_solr_util.iml" />

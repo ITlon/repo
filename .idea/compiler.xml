@@ -20,11 +20,16 @@
         <module name="FirstItem_page_interface" />
         <module name="FirstItem_page_service" />
         <module name="FirstItem_page_web" />
+        <module name="FirstItem_pay_interface" />
+        <module name="FirstItem_pay_service" />
         <module name="FirstItem_pojo" />
         <module name="FirstItem_protal_web" />
         <module name="FirstItem_search_interface" />
         <module name="FirstItem_search_service" />
         <module name="FirstItem_search_web" />
+        <module name="FirstItem_seckill_interface" />
+        <module name="FirstItem_seckill_service" />
+        <module name="FirstItem_seckill_web" />
         <module name="FirstItem_service" />
         <module name="FirstItem_shop_web" />
         <module name="FirstItem_solr_util" />
@@ -49,11 +54,16 @@
       <module name="FirstItem_page_service" target="1.7" />
       <module name="FirstItem_page_web" target="1.7" />
       <module name="FirstItem_parent" target="1.7" />
+      <module name="FirstItem_pay_interface" target="1.7" />
+      <module name="FirstItem_pay_service" target="1.7" />
       <module name="FirstItem_pojo" target="1.7" />
       <module name="FirstItem_protal_web" target="1.7" />
       <module name="FirstItem_search_interface" target="1.7" />
       <module name="FirstItem_search_service" target="1.7" />
       <module name="FirstItem_search_web" target="1.7" />
+      <module name="FirstItem_seckill_interface" target="1.7" />
+      <module name="FirstItem_seckill_service" target="1.7" />
+      <module name="FirstItem_seckill_web" target="1.7" />
       <module name="FirstItem_service" target="1.7" />
       <module name="FirstItem_shop_web" target="1.7" />
       <module name="FirstItem_solr_util" target="1.7" />

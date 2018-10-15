@@ -8,9 +8,12 @@
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_order_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_page_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_page_web" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_pay_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_protal_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_seckill_service" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_seckill_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_shop_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_solr_util" />

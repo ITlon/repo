@@ -11,16 +11,21 @@
 	
     <link rel="stylesheet" type="text/css" href="css/webbase.css" />
     <link rel="stylesheet" type="text/css" href="css/pages-weixinpay.css" />
+	<script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/service/WeixinPayService.js"></script>
+	<script type="text/javascript" src="js/controller/WeixinPayController.js"></script>
+	<script type="text/javascript" src="plugins/qrious.min.js"></script>
 </head>
 
-	<body>
+	<body ng-app="firstItem" ng-controller="WeixinPayController" ng-init="createNative()">
 		<!--head-->
 		<div class="top">
 			<div class="py-container">
 				<div class="shortcut">
 					<ul class="fl">
 						<li class="f-item">品优购欢迎您！</li>
-						<li class="f-item">请登录　<span><a href="#">免费注册</a></span></li>
+						<li class="f-item">请登录<span><a href="#">免费注册</a></span></li>
 					</ul>
 					<ul class="fr">
 						<li class="f-item">我的订单</li>
@@ -49,16 +54,16 @@
 			<!--主内容-->
 			<div class="checkout py-container  pay">
 				<div class="checkout-tit">
-					<h4 class="fl tit-txt"><span class="success-icon"></span><span  class="success-info">订单提交成功，请您及时付款！订单号：56789065645</span></h4>
-                    <span class="fr"><em class="sui-lead">应付金额：</em><em  class="orange money">￥17,654</em>元</span>
+					<h4 class="fl tit-txt"><span class="success-icon"></span><span  class="success-info">订单提交成功，请您及时付款！订单号：{{out_trade_no}}</span></h4>
+                    <span class="fr"><em class="sui-lead">应付金额：</em><em  class="orange money">￥{{total_fee}}</em>元</span>
 					<div class="clearfix"></div>
 				</div>				
 				<div class="checkout-steps">
 					<div class="fl weixin">微信支付</div>
-                    <div class="fl sao"> 
-                        <p class="red">二维码已过期，刷新页面重新获取二维码。</p>                      
+                    <div class="fl sao">
+						<div class="clearfix"><p class="red"><a href="javascript:;" target="_blank" ng-click="updateNative()" >点击刷新二维码</a></p></div>
                         <div class="fl code">
-                            <img src="img/erweima.png" alt="">
+                            <img id="qrious">
                             <div class="saosao">
                                 <p>请使用微信扫一扫</p>
                                 <p>扫描二维码支付</p>
@@ -71,6 +76,7 @@
                     </div>
                     <div class="clearfix"></div>
 				    <p><a href="pay.html" target="_blank">> 其他支付方式</a></p>
+					<p class="red"><a href="getOrderInfo.html" target="_blank">返回上一页</a></p>
 				</div>
 			</div>
 

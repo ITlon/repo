@@ -2,6 +2,7 @@ package com.itheima.order.service;
 import java.util.List;
 import com.itheima.pojo.TbOrder;
 
+import com.itheima.pojo.TbPayLog;
 import entity.PageResult;
 /**
  * 服务层接口
@@ -57,5 +58,19 @@ public interface OrderService {
 	 * @return
 	 */
 	public PageResult findPage(TbOrder order, int pageNum, int pageSize);
+
+	/**
+	 * 更改订单状态
+	 * @param out_trade_no 订单id
+	 * @param transaction_id 微信交易id
+	 */
+	public void updateOrderStatus(String out_trade_no,String transaction_id);
+
+	/**
+	 * 根据用户id从redis中查询订单记录日志
+	 * @param userId
+	 * @return
+	 */
+	public TbPayLog searchPayLogFromRedis(String userId);
 	
 }
