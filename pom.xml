@@ -36,6 +36,7 @@
         <module>FirstItem_seckill_interface</module>
         <module>FirstItem_seckill_service</module>
         <module>FirstItem_seckill_web</module>
+        <module>FirstItem_task_service</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

@@ -18,6 +18,7 @@ import java.util.Collection;
 public class UserDetailServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        System.out.println("经过此认证类:"+username);
         Collection<GrantedAuthority> authorities= new ArrayList<>();
         authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
         User user = new User(username,"",authorities);

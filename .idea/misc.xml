@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_shop_web" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_solr_util" />
+    <file type="web" url="file://$PROJECT_DIR$/FirstItem_task_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_user_service" />
     <file type="web" url="file://$PROJECT_DIR$/FirstItem_user_web" />
   </component>

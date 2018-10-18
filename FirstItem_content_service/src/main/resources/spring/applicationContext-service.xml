@@ -11,7 +11,6 @@
     <dubbo:protocol name="dubbo" port="20882"></dubbo:protocol>
     
 	<dubbo:application name="pinyougou-content-service"/>
-    <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
     <dubbo:annotation package="com.itheima.content.impl" />
    
    

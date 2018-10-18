@@ -22,7 +22,7 @@ import java.util.Map;
 public class PayController {
     @Reference
     private WeixinPayService weixinPayService;
-
+    @Reference
     private SeckillOrderService seckillOrderService;
 
     @RequestMapping("/createNative")
@@ -33,24 +33,25 @@ public class PayController {
         if (seckillOrder == null) {
             return new HashMap();
         } else {
-           long fen = (long) (seckillOrder.getMoney().doubleValue() * 100);
-           return weixinPayService.createNative(seckillOrder.getId() + "", fen + "");
+            long fen = (long) (seckillOrder.getMoney().doubleValue() * 100);
+            return weixinPayService.createNative(seckillOrder.getId() + "", fen + "");
         }
     }
+
     @RequestMapping("/query")
-    public Map queryStatus(String out_trade_no){
+    public Result queryStatus(String out_trade_no) {
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         Result result = null;
-        int seconds=0;
+        int seconds = 0;
         while (true) {
             Map map = weixinPayService.queryPayStatus(out_trade_no);
             if (map == null) {//出错
                 result = new Result(false, "支付出错");
                 break;
             }
-            if (map.get("trade_state").equals("SUCCESS")){
-                result=new Result(true,"支付成功");
-                seckillOrderService.saveSeckillOrderToDb(username,Long.valueOf(out_trade_no),map.get("transaction_id")+"");
+            if (map.get("trade_state").equals("SUCCESS")) {
+                result = new Result(true, "支付成功");
+                seckillOrderService.saveSeckillOrderToDb(username, Long.valueOf(out_trade_no), map.get("transaction_id") + "");
                 break;
             }
             try {
@@ -59,21 +60,21 @@ public class PayController {
                 e.printStackTrace();
             }
             seconds++;
-            if (seconds>=100){
-                result=new Result(false,"二维码超时");
+            if (seconds >= 100) {
+                result = new Result(false, "二维码超时");
                 Map closePay = weixinPayService.closePay(out_trade_no);
-                if ("SUCCESS".equals(closePay.get("return_code"))&&closePay!=null){
-                    if ("ORDERPAID".equals(closePay.get("err_code"))){
-                        result=new Result(true, "支付成功");
-                        seckillOrderService.saveSeckillOrderToDb(username,Long.valueOf(out_trade_no),map.get("transaction_id")+"");
+                if ("SUCCESS".equals(closePay.get("return_code")) && closePay != null) {
+                    if ("ORDERPAID".equals(closePay.get("err_code"))) {
+                        result = new Result(true, "支付成功");
+                        seckillOrderService.saveSeckillOrderToDb(username, Long.valueOf(out_trade_no), map.get("transaction_id") + "");
                     }
-                }else {
+                } else {
                     //删除缓存中的订单
-                    seckillOrderService.deleteOrderFromRedis(username,Long.valueOf(out_trade_no));
+                    seckillOrderService.deleteOrderFromRedis(username, Long.valueOf(out_trade_no));
                 }
                 break;
             }
         }
-        return null;
+        return result;
     }
 }

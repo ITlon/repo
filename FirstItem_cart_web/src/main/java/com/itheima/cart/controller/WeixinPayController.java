@@ -58,6 +58,8 @@ public class WeixinPayController {
             seconds++;
             if (seconds>=100){
                 result=new Result(false,"二维码超时");
+                //关闭微信支付
+                weixinPayService.closePay(out_trade_no);
                 break;
             }
         }

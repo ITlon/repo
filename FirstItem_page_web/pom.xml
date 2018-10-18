@@ -10,6 +10,23 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
     <artifactId>FirstItem_page_web</artifactId>
+    <properties>
+        <prot>9194</prot>
+    </properties>
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <prot>9194</prot>
+            </properties>
+        </profile>
+        <profile>
+            <id>pro</id>
+            <properties>
+                <prot>9195</prot>
+            </properties>
+        </profile>
+    </profiles>
     <build>
         <plugins>
             <plugin>
@@ -18,7 +35,7 @@
                 <version>2.2</version>
                 <configuration>
                     <!-- 指定端口 -->
-                    <port>9094</port>
+                    <port>${prot}</port>
                     <!-- 请求路径 -->
                     <path>/</path>
                 </configuration>

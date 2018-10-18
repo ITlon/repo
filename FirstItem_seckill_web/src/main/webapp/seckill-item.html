@@ -13,10 +13,10 @@
     <link rel="stylesheet" type="text/css" href="css/pages-zoom.css" />
     <link rel="stylesheet" type="text/css" href="css/pages-seckill-item.css" />
     <link rel="stylesheet" type="text/css" href="css/widget-cartPanelView.css" />
-	<script type="text/javascript" src="plugins/angularjs/angular.min.js"> </script>
-	<script type="text/javascript" src="js/base.js"> </script>
-	<script type="text/javascript" src="js/service/seckillGoodsService.js"> </script>
-	<script src="js/controller/seckillGoodsController.js"> </script>
+	<script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/service/seckillGoodsService.js"></script>
+	<script type="text/javascript" src="js/controller/seckillGoodsController.js"></script>
 </head>
 
 <body ng-app="firstItem" ng-controller="seckillGoodsController" ng-init="findOne()">
@@ -177,7 +177,7 @@ $(function(){
 					<div class="zoom">
 						<!--默认第一个预览-->
 						<div id="preview" class="spec-preview">
-							<span class="jqzoom"><img jqimg="entity.smallPic" src="entity.smallPic" width="400px" height="400px"/></span>
+							<span class="jqzoom"><img jqimg="{{entity.smallPic}}" src="{{entity.smallPic}}" width="400px" height="400px"/></span>
 						</div>						
 					</div>
 					

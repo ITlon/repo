@@ -3,9 +3,7 @@ package com.itheima.pay.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.wxpay.sdk.WXPayUtil;
 import com.itheima.pay.service.WeixinPayService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.redis.core.RedisTemplate;
 import util.HttpClient;
 
 import java.util.HashMap;
@@ -25,8 +23,6 @@ public class WeixinPayServiceImpl implements WeixinPayService {
     private String notifyurl;
     @Value("${partnerkey}")
     private String partnerkey;
-    @Autowired
-    private RedisTemplate redisTemplate;
     @Override
     public Map createNative(String out_trade_no, String total_fee) {
         try {Map param = new HashMap();
@@ -46,8 +42,8 @@ public class WeixinPayServiceImpl implements WeixinPayService {
             client.setXmlParam(signedXml);//发送的 xml 数据
             client.post();//执行 post 请求
             String resultXml = client.getContent(); //获取结果
-            System.out.println(resultXml);
             Map resultMap = WXPayUtil.xmlToMap(resultXml);
+            System.out.println("生成支付二维码返回的结果:"+resultMap);
             Map map = new HashMap();
             map.put("code_url", resultMap.get("code_url"));//支付地址
             map.put("out_trade_no", out_trade_no);//订单号
@@ -74,6 +70,7 @@ public class WeixinPayServiceImpl implements WeixinPayService {
             client.post();
             String resultXml = client.getContent();
             Map resultMap = WXPayUtil.xmlToMap(resultXml);
+            System.out.println("查询返回结果:"+resultMap);
             return resultMap;
         } catch (Exception e) {
             e.printStackTrace();
@@ -95,6 +92,7 @@ public class WeixinPayServiceImpl implements WeixinPayService {
             client.post();
             String resultXml = client.getContent();
             Map resultMap = WXPayUtil.xmlToMap(resultXml);
+            System.out.println("关闭订单后返回的结果:"+resultMap);
             return  resultMap;
         } catch (Exception e) {
             e.printStackTrace();

@@ -28,6 +28,7 @@ public class SeckillGoodsServiceImpl implements SeckillGoodsService {
     private TbSeckillGoodsMapper seckillGoodsMapper;
     @Autowired
     private RedisTemplate redisTemplate;
+
     /**
      * 查询全部
      */
@@ -61,18 +62,6 @@ public class SeckillGoodsServiceImpl implements SeckillGoodsService {
     @Override
     public void update(TbSeckillGoods seckillGoods) {
         seckillGoodsMapper.updateByPrimaryKey(seckillGoods);
-    }
-
-    /**
-     * 根据ID获取实体
-     *
-     * @param id
-     * @return
-     */
-    @Override
-    public TbSeckillGoods findOne(Long id) {
-        //从缓冲查询秒杀商品的详细信息
-      return (TbSeckillGoods) redisTemplate.boundHashOps("seckillGoods").get(id);
     }
 
     /**
@@ -118,21 +107,36 @@ public class SeckillGoodsServiceImpl implements SeckillGoodsService {
 
     @Override
     public List<TbSeckillGoods> findList() {
+        System.out.println("从缓存中读取秒杀商品列表");
         List<TbSeckillGoods> seckillgoodsList = redisTemplate.boundHashOps("seckillGoods").values();
-        if (seckillgoodsList==null||seckillgoodsList.size()==0){
+        if (seckillgoodsList == null || seckillgoodsList.size() == 0) {
             TbSeckillGoodsExample example = new TbSeckillGoodsExample();
             Criteria criteria = example.createCriteria();
             criteria.andStatusEqualTo("1");//审核通过的商品
             criteria.andStartTimeLessThan(new Date());//开始时间小于当前时间
             criteria.andEndTimeGreaterThan(new Date());//结束时间大于当前时间
             criteria.andStockCountGreaterThan(0);//剩余库存量大于0
-            seckillgoodsList= seckillGoodsMapper.selectByExample(example);
+            seckillgoodsList = seckillGoodsMapper.selectByExample(example);
+            System.out.println("从数据库中读取秒杀商品列表");
             for (TbSeckillGoods seckillGoods : seckillgoodsList) {
-                //存入缓存
-                redisTemplate.boundHashOps("seckillGoods").put(seckillGoods.getId(),seckillGoods);
+                System.out.println("再将秒杀商品全部存入缓存");
+                redisTemplate.boundHashOps("seckillGoods").put(seckillGoods.getId(), seckillGoods);
             }
         }
-
         return seckillgoodsList;
     }
+
+    /**
+     * 根据ID获取实体
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public TbSeckillGoods findOne(Long id) {
+        System.out.println("查询秒杀商品详细信息");
+        //从缓冲查询秒杀商品的详细信息
+        return (TbSeckillGoods) redisTemplate.boundHashOps("seckillGoods").get(id);
+    }
+
 }

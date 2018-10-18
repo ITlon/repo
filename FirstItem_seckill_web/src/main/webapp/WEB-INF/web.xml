@@ -27,7 +27,7 @@
     </listener>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/spring-security.xml</param-value>
+        <param-value>classpath:spring/spring-security.xml,classpath*:spring/applicationContext*.xml</param-value>
     </context-param>
 
     <filter>
@@ -59,6 +59,6 @@
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
-        <welcome-file>cart.html</welcome-file>
+        <welcome-file>seckill-index.html</welcome-file>
     </welcome-file-list>
 </web-app>
